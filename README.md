@@ -12,7 +12,7 @@ This project involves setting up a honeypot on Microsoft Azure and exposing it t
 ## High-Level Overview of the Lab
  1. Create a **free Azure account** (which has about $200 in free  credits)
  2. Set up a **Virtual Machine** in Azure.
- 3. Turn the external firewa Vll and Windows Firewal off for the VM, exposing it to anyone on the internet to ping.
+ 3. Turn the external firewall and Windows Firewal off for the VM, exposing it to anyone on the internet to ping and attack.
  4. Create a **Log Repository in Azure** called a **Logs Analystics Workspace**, to ingest the logs from the Virtual Machine.
  5. Set up **Azure Sentinel** with Azure. (Microsoft's cloud-native SIEM)
  6. With that **SIEM**, create a map so that we can see all of the **attacker data**.
