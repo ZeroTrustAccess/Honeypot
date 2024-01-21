@@ -9,6 +9,15 @@ This project involves setting up a honeypot on Microsoft Azure and exposing it t
 - Monitor and document any attempted attacks.
 - Analyze the data collected by the honeypot.
 
+## High-Level Overview of the Lab
+ 1. Create a **free Azure account** (which has about $200 in free  credits)
+ 2. Set up a **Virtual Machine** in Azure.
+ 3. Turn the external firewa Vll and Windows Firewal off for the VM, exposing it to anyone on the internet to ping.
+ 4. Create a **Log Repository in Azure** called a **Logs Analystics Workspace**, to ingest the logs from the Virtual Machine.
+ 5. Set up **Azure Sentinel** with Azure. (Microsoft's cloud-native SIEM)
+ 6. With that **SIEM**, create a map so that we can see all of the **attacker data**.
+ 7. Use **Powershell** to extract the IP addresses from the Windows Logs, and send it to a Third Party API, to derive  all of the geographic location to be sent back to the Virtual Machine to create a **custom log** of data so we know where these attacks are coming from.
+
 ## Getting Started
 
 These instructions will guide you on how to set up the honeypot on your own Azure account.
@@ -29,9 +38,6 @@ These instructions will guide you on how to set up the honeypot on your own Azur
 
 Explain how to use the honeypot once it's set up.
 
-## Contributing
-
-We welcome contributions from the community. Please read our contribution guidelines before submitting a pull request.
 
 ## License
 
