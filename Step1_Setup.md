@@ -42,9 +42,11 @@ There's a default rule already set when creating the **network security group**.
   The idea of doing this was exciting, because before my deep-dive into technology and learning **cybersecurity**, I had no idea the possible danger that the *raw internet* could inflict. I had never done anything like this before, and always lived safely behind a firewall of sorts.
   - The next step was to **Review and Create** the **Virtual Machine**, by clicking *ok* to create the rule, and then Review and Create in the bottom left corner. This brought me to the review screen which displayed the cost of my VM.
 
- ![Screenshot of firewall configuration set-up](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step1_vm8.png)
+ ![Screenshot of vm set up cost](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step1_vm8.png)
 
  I thought this was incredibly neat. Since I had never done anything like this before, I had no idea what to expect as far as the cost. It was my understanding that the Free Azure account came with *credits*, and that the lab I was undertaking wouldn't *actually* cost me anything to do. But it was neat to see it was actually much cheaper than I had expected. (This is good for me, because while I have always considered myself a fast-learner, I've found that over the years I tend to do things more slowly and deliberately. Less error that way.)
+
+![Screenshot of vm set-up](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step1_vm9.png)
 
  After clicking create, my **Virtual Machine** began it's journey through *creation*. This was strangely exciting, and sort of hammered-home the feeling of being nerdy, in a sense. While the **Virtural Machine** was being deployed, it was time to move on to the next step in my lab.
 
