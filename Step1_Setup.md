@@ -1,6 +1,6 @@
 # Step 1: Setup
 
-1. Set up a **Virtual Machine**. Look for *Create a resource**, and then find Virtual Machine, and click Virtual Machine. You can also find the Virtual Machine icon from the Home screen, enter it, and then choose **create** in the top left of the menu bar.
+1. Set up a **Virtual Machine**. Look for **Create a resource**, and then find Virtual Machine, and click Virtual Machine. You can also find the Virtual Machine icon from the Home screen, enter it, and then choose **create** in the top left of the menu bar.
 
 ![Screenshot of where to set up the VM](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step1_vm1.png)
 
