@@ -29,7 +29,7 @@ These instructions will guide you on how to set up the honeypot on your own Azur
 
 ### Setup and Installation
 
-1. Step 1
+1. [Step 1: Create a Virtual Machine](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step1_Setup.md)
 2. Step 2
 3. Step 3
    ...
