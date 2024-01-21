@@ -1,7 +1,5 @@
 # Step 1: Setup
 
-![Step 1: Screenshot of the main screen in Microsoft Azure to begin creating the Honeypot.](https://github.com/ZeroTrustAccess/Honeypot/blob/main/screen%201.png)
-
 1. Set up a **Virtual Machine**. Look for *Create a resource**, and then find Virtual Machine, and click Virtual Machine. You can also find the Virtual Machine icon from the Home screen, enter it, and then choose **create** in the top left of the menu bar.
 
 ![Screenshot of where to set up the VM](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step1_vm1.png)
