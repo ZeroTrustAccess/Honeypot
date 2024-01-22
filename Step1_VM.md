@@ -1,6 +1,6 @@
 # Step 1: Setup
 
-1. The **First Thing** I needed to do was set up a **Virtual Machine**. I found **Create a resource**, and then find Virtual Machine, on my Azure account home screen, and clicked Virtual Machine. Its also possible to find the Virtual Machine icon in other places from the Home screen, enter it, and then choose **create** in the top left of the menu bar.
+1. The **First Thing** I needed to do was set up a **Virtual Machine**. I found **Create a resource**, and then Virtual Machine, on my Azure account home screen, and clicked Virtual Machine. Its also possible to find the Virtual Machine icon in other places from the Home screen, enter it, and then choose **create** in the top left of the menu bar.
 
 ![Screenshot of where to set up the VM](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step1_vm1.png)
 
