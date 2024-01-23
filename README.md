@@ -30,8 +30,8 @@ These instructions will guide you on how to set up the honeypot on your own Azur
 ### Setup and Installation
 
 1. [Step 1: Create a Virtual Machine](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step1_VM.md)
-2. Step 2
-3. Step 3
+2. [Step 2: Create a Logs Analytics Workspace](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step2_LAW.md)
+3. [Step 3: Set up SIEM - Microsoft Sentinel](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step3_Sent.md)
    ...
 
 ## Usage
