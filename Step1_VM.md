@@ -50,5 +50,5 @@ There's a default rule already set when creating the **network security group**.
 
  After clicking create, my **Virtual Machine** began it's journey through *creation*. This was strangely exciting, and sort of hammered-home the feeling of being nerdy, in a sense. While the **Virtural Machine** was being deployed, it was time to move on to the next step in my lab.
 
- ...make a **Logs Analytic Workspace**
+ ...make a [Logs Analytics Workspace](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step2_LAW.md)
  
