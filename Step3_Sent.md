@@ -8,7 +8,7 @@ This is the **SIEM** (Security Information and Event Management) tool, that I us
 
 First step of course was to click **Create Microsoft Sentinel**.
 
-![screenshot of sentenal screen](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step3_sen2.png.)
+![screenshot of sentenal screen](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step3_sen2.png)
 
 On the first screen, all I had to do was choose the LAW I created previously, and then choose add at the bottom.
 
