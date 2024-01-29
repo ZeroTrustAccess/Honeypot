@@ -124,7 +124,7 @@ On the next section titled **Details**, I named the custom log **FAILED_RDP_WITH
 
 ![screenshot of naming the custom log](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step4_run25.png)
 
-It will take some time for the log file to sync-up with the Virtual Machine. On to the [Next Step](https://github.com/ZeroTrustAccess/honeypot/blob/main/Step5_log.md)
+It will take some time for the log file to sync-up with the Virtual Machine. On to the [Next Step](https://github.com/ZeroTrustAccess/honeypot/blob/main/Step5_Log.md)
 
 
 
