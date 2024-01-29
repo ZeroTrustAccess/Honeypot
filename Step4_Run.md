@@ -92,5 +92,40 @@ To see the log file, all I had to do was open the file explorer, head over to C:
 
 ![screenshot file explorer](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step4_run18.png)
 
+- Next, I had to create a custom log within **LAW**. In Azure, I navigated back to the Logs Analytics Workspace, then:
+  1. choose my honeypot
+  2. From the menu on the left, I selected *Tables*
+  3. Then *Create*
+  4. Then chose to create **MMA-Based** custom log.
+ 
+![screenshot of custom log creation](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step_run19.png)
+
+The first thing the custom log asks for is a sample log. To get that, I went back into the VM, went to the location where the failed attempts were being logged (C:/Program Data) and opened the log in notepad by double clicking it. Once it was open, I selected the contents of the log by using **Ctrl+A** then copying it with **Ctrl+C**, and then minimized the VM to go back to actual computer.
+
+![screenshot of collecting sample log](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step4_run20.png)
+
+I opened *Notepad* on my actual computer, pasted the contents of my VM log file in with **Ctrl+V**, and then saved the file as "failed rdp log" on my desktop.
+
+![screenshot of log on actual desktop](https:github.com/ZeroTrustAccess/Honeypot/blob/main/step4_run21.png)
+
+I then went back to the **LAW** custom log page I had open and retrieved the failed rdp log file from my desktop to use as the sample lot.
+
+![screenshot of uploading log](https://github.com/ZeroTrustAcess/Honeypot/blob/main/step4_run22.png)
+
+After uploading the sample log, on the next page it shows some of what it looks like. So I then clicked *Next*.
+
+![screenshop of uploaded log](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step4_run23.png.)
+
+The next page is for the *Collection path*. This is where the log actually lived on the VM. The dropdown box on the left side I chose Windows, and then entered the path on the VM that the log was located. Which was **C:\ProgramData\failed_rdp.log**
+
+![screenshot of collection path](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step4_run24.png)
+
+On the next section titled **Details**, I named the custom log **FAILED_RDP_WITH_GEO** (and it will gramatically append at the end with _CL which just stands for *custom log*. Then moved on to Review + Create.
+
+![screenshot of naming the custom log](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step4_run25.png)
+
+It will take some time for the log file to sync-up with the Virtual Machine. On to the [Next Step](https://github.com/ZeroTrustAccess/honeypot/blob/main/step5_log.md)
+
+
 
 
