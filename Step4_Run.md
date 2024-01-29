@@ -106,15 +106,15 @@ The first thing the custom log asks for is a sample log. To get that, I went bac
 
 I opened *Notepad* on my actual computer, pasted the contents of my VM log file in with **Ctrl+V**, and then saved the file as "failed rdp log" on my desktop.
 
-![screenshot of log on actual desktop](https:github.com/ZeroTrustAccess/Honeypot/blob/main/step4_run21.png)
+![screenshot of log on actual desktop](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step4_run21.png)
 
 I then went back to the **LAW** custom log page I had open and retrieved the failed rdp log file from my desktop to use as the sample lot.
 
-![screenshot of uploading log](https://github.com/ZeroTrustAcess/Honeypot/blob/main/step4_run22.png)
+![screenshot of uploading log](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step4_run22.png)
 
 After uploading the sample log, on the next page it shows some of what it looks like. So I then clicked *Next*.
 
-![screenshop of uploaded log](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step4_run23.png.)
+![screenshop of uploaded log](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step4_run23.png)
 
 The next page is for the *Collection path*. This is where the log actually lived on the VM. The dropdown box on the left side I chose Windows, and then entered the path on the VM that the log was located. Which was **C:\ProgramData\failed_rdp.log**
 
@@ -124,7 +124,7 @@ On the next section titled **Details**, I named the custom log **FAILED_RDP_WITH
 
 ![screenshot of naming the custom log](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step4_run25.png)
 
-It will take some time for the log file to sync-up with the Virtual Machine. On to the [Next Step](https://github.com/ZeroTrustAccess/honeypot/blob/main/step5_log.md)
+It will take some time for the log file to sync-up with the Virtual Machine. On to the [Next Step](https://github.com/ZeroTrustAccess/honeypot/blob/main/Step5_log.md)
 
 
 
