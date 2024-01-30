@@ -69,7 +69,7 @@ StormEvents | project EndTime, StartTime | extend Duration = EndTime - StartTime
 
 In this example, extend is used to create a new column called Duration, which is the difference between EndTime and StartTime.
 
-This only confused me. So with only the one data poing to focus on--**lattitude**-- I was able to come up with an expression using the **extend** operator:
+This only confused me. So with only the one data point to focus on--**latitude**-- I was able to come up with an expression using the **extend** operator:
 
 ![screenshot of first kql syntax](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step5_log9.png)
 
