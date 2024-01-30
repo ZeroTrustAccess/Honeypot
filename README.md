@@ -33,7 +33,7 @@ These instructions will guide you on how to set up the honeypot on your own Azur
 2. [Step 2: Create a Logs Analytics Workspace](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step2_LAW.md)
 3. [Step 3: Set up SIEM - Microsoft Sentinel](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step3_Sent.md)
 4. [Step 4: Journey Into The Machine](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step4_Run.md)
-5. [Step 5: logs, logs, logs](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step5_Log.md)
+5. [Step 5: Logs, Logs, Logs](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step5_Log.md)
 6. 
    ...
 
