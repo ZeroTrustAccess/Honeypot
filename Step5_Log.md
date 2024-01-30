@@ -6,7 +6,7 @@ Within the left menu in the **Logs Analytics Workspace**, I clicked *Logs*, and 
 
 After choosing SecurityEvents, I clicked the blue Run button above, and after the lower window began populating, there were two tabs: Results and Charts. Clicking on Results showed me the contents of the Security Events log from my virtual machine.
 
-![screenshot of the log](https://github.com/ZeroTrustAccess/Honeypot/main/blob/step5_log2.png)
+![screenshot of the log](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step5_log2.png)
 
 Next to SecurityEvent, if I typed a pipe | then "where EventID == 4625" and then clicked run, it would show mw all the failed login attempts that are being logged in the VM by that EventID in the last 24 hours. (The screenshot was taken on a later date from my original set-up and therefore didn't contain any actual logs of my failed login attempts.)
 
