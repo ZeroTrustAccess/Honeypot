@@ -1,4 +1,4 @@
-# Step 1: Setup
+# Chapter 1: Virtual Machine Creation Story
 
 1. The **First Thing** I needed to do was set up a **Virtual Machine**. I found **Create a resource**, and then Virtual Machine, on my Azure account home screen, and clicked Virtual Machine. Its also possible to find the Virtual Machine icon in other places from the Home screen, enter it, and then choose **create** in the top left of the menu bar.
 
