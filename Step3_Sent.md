@@ -1,4 +1,4 @@
-# Step 3. SIEM Setup. Microsoft Sentinel
+# Chapter 3: The Watching Watcher - Sentinel
 
 I searched for "sentinel" in the search bar at the top, and chose **Microsoft Sentinel** under *Services*.
 
