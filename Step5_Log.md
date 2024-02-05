@@ -1,4 +1,4 @@
-# Step 5: Logs, Logs, Logs.
+# Chapter 5: Logs, Logs, Logs.
 
 Within the left menu in the **Logs Analytics Workspace**, I clicked *Logs*, and after closing the pop-up query window, at the top of the window on the right next to the number 1, I started to type "SecurityEvent". This will alow me to view the Security Event logs over on the VM, which is also how I will view the custom logs I created.
 
