@@ -20,7 +20,7 @@ This project involves setting up a honeypot on Microsoft Azure and exposing it t
 
 ## Getting Started
 
-These instructions will guide you on how to set up the honeypot on your own Azure account.
+This lab is documented over the various chapters step-by-step, and can be used in 2024 for you to set up your own Honeypot.
 
 ### Prerequisites
 
@@ -29,12 +29,13 @@ These instructions will guide you on how to set up the honeypot on your own Azur
 
 ### Setup and Installation
 
-1. [Step 1: Create a Virtual Machine](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step1_VM.md)
-2. [Step 2: Create a Logs Analytics Workspace](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step2_LAW.md)
-3. [Step 3: Set up SIEM - Microsoft Sentinel](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step3_Sent.md)
-4. [Step 4: Journey Into The Machine](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step4_Run.md)
-5. [Step 5: Logs, Logs, Logs](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step5_Log.md)
-6. 
+1. [Chapter 1: Create a Virtual Machine](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step1_VM.md)
+2. [Chapter 2: Create a Logs Analytics Workspace](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step2_LAW.md)
+3. [Chapter 3: Set up SIEM - Microsoft Sentinel](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step3_Sent.md)
+4. [Chapter 4: Journey Into The Machine](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step4_Run.md)
+5. [Chapter 5: Logs, Logs, Logs](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step5_Log.md)
+6. [Chapter 6: The Map](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step6_Map.md)
+7. 
    ...
 
 ## Usage
