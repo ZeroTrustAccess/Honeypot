@@ -77,3 +77,18 @@ Admittedly, I had no idea what any of this was. I had to really break down into 
 Obviously, the **FAILED_RDP_WITH_GEO_CL** was the query command I used to summon the log in the first place. The next part made a little bit of sense to me. I knew that the | symbol was called a "pipe", and was used in other languages to *do more than one thing* at the same time. I experienced this in both my SQL training with Google, and all of the self-study I did to try and learn HTML,CSS, C+, and Python.
 
 It made sense, then, that following my input to call my logs through the query, would be the beginning of setting the extend operator into motion.
+
+After some trial and error using the Copilot AI, this is the KQL code that I came upon that finally worked:
+
+FAILED_RDP_WITH_GEO_CL
+|extend username = extract("username:([^,]+)", 1, RawData)
+|extend timestamp = extract("timestamp:([^,]+)", 1, RawData)
+|extend latitude = extract("latitude:([^,]+)", 1, RawData)
+|extend longitude = extract("longitude:([^,]+)", 1, RawData)
+|extend sourcehost = extract("sourcehost:([^,]+)", 1, RawData)
+|extend state = extract("state:([^,]+)", 1, RawData)
+|extend label = extract("label:([^,]+)", 1, RawData)
+|extend destination = extract("destination:([^,]+)", 1, RawData)
+|extend country = extract("country:([^,]+)", 1, RawData)
+
+Now, It was time to finish setting up the [map in **Sentinel**](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step6_Map.md).
