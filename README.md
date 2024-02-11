@@ -29,12 +29,12 @@ This lab is documented over the various chapters step-by-step, and can be used i
 
 ### Setup and Installation
 
-1. [Chapter 1: Virtual Machine Creation Story](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step1_VM.md)
-2. [Chapter 2: Laying Down the LAW (Logs Analytics Workspace)](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step2_LAW.md)
-3. [Chapter 3: The Watching Watcher: Microsoft Sentinel](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step3_Sent.md)
-4. [Chapter 4: Journey Into The Machine](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step4_Run.md)
-5. [Chapter 5: Logs, Logs, Logs](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step5_Log.md)
-6. [Chapter 6: The Map](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step6_Map.md)
+1. [Chapter 1: Virtual Machine Creation Story](https://github.com/ZeroTrustAccess/Honeypot/blob/main/chapters/Step1_VM.md)
+2. [Chapter 2: Laying Down the LAW (Logs Analytics Workspace)](https://github.com/ZeroTrustAccess/Honeypot/blob/main/chapters/Step2_LAW.md)
+3. [Chapter 3: The Watching Watcher: Microsoft Sentinel](https://github.com/ZeroTrustAccess/Honeypot/blob/main/chapters/Step3_Sent.md)
+4. [Chapter 4: Journey Into The Machine](https://github.com/ZeroTrustAccess/Honeypot/blob/main/chapters/Step4_Run.md)
+5. [Chapter 5: Logs, Logs, Logs](https://github.com/ZeroTrustAccess/Honeypot/blob/main/chapters/Step5_Log.md)
+6. [Chapter 6: The Map](https://github.com/ZeroTrustAccess/Honeypot/blob/main/chapters/Step6_Map.md)
 7. 
    ...
 
