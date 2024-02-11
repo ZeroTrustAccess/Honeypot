@@ -98,7 +98,7 @@ To see the log file, all I had to do was open the file explorer, head over to C:
   3. Then *Create*
   4. Then chose to create **MMA-Based** custom log.
  
-![screenshot of custom log creation](https://github.com/ZeroTrustAccess/Honeypot/blob/main/all_images/step_run19.png)
+![screenshot of custom log creation](https://github.com/ZeroTrustAccess/Honeypot/blob/main/all_images/step4_run19.png)
 
 The first thing the custom log asks for is a sample log. To get that, I went back into the VM, went to the location where the failed attempts were being logged (C:/Program Data) and opened the log in notepad by double clicking it. Once it was open, I selected the contents of the log by using **Ctrl+A** then copying it with **Ctrl+C**, and then minimized the VM to go back to actual computer.
 
