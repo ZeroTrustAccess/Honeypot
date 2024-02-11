@@ -2,15 +2,15 @@
 
 Within the left menu in the **Logs Analytics Workspace**, I clicked *Logs*, and after closing the pop-up query window, at the top of the window on the right next to the number 1, I started to type "SecurityEvent". This will alow me to view the Security Event logs over on the VM, which is also how I will view the custom logs I created.
 
-![screenshot of security events log](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step5_log1.png)
+![screenshot of security events log](https://github.com/ZeroTrustAccess/Honeypot/blob/main/all_images/step5_log1.png)
 
 After choosing SecurityEvents, I clicked the blue Run button above, and after the lower window began populating, there were two tabs: Results and Charts. Clicking on Results showed me the contents of the Security Events log from my virtual machine.
 
-![screenshot of the log](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step5_log2.png)
+![screenshot of the log](https://github.com/ZeroTrustAccess/Honeypot/blob/main/all_images/step5_log2.png)
 
 Next to SecurityEvent, if I typed a pipe | then "where EventID == 4625" and then clicked run, it would show mw all the failed login attempts that are being logged in the VM by that EventID in the last 24 hours. (The screenshot was taken on a later date from my original set-up and therefore didn't contain any actual logs of my failed login attempts.)
 
-![screenshot of eventid 4625](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step5_log3.png)
+![screenshot of eventid 4625](https://github.com/ZeroTrustAccess/Honeypot/blob/main/all_images/step5_log3.png)
 
 ## It was at this point...
 
@@ -28,19 +28,19 @@ At first, I chose the first option (DCR), but the input field's on the screen di
 
 I spent a lot of time swimming through the menus and exploring the differnet sections in the Logs Analytics Workspace, and finally came upon a hint in the *Tables* section. After opening it, there was a huge list of analytics that were already defaultly apart of Azure, and when I scrolled down the list a bit, I was able to find the custom MMA log I created earlier.
 
-![screenshot of analytics](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step5_log5.png)
+![screenshot of analytics](https://github.com/ZeroTrustAccess/Honeypot/blob/main/all_images/step5_log5.png)
 
 To the right side, I found the three dots, which always opened up to some sort of optinos or settings, and found a few new paths to go down.
 
-![image](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step5_log6.png)
+![image](https://github.com/ZeroTrustAccess/Honeypot/blob/main/all_images/step5_log6.png)
 
 I first chose **Manage Table**, seeing as though it had the cogwheel icon, and I was trying to find a way to alter the custom log that I had created. But after exploring through, I found nothing that seemed even remotely useful for what I needed to do. But when I went into the option **Edit Schema**, I thought I had found the answer.
 
-![screenshot of edit schema](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step5_log7.png)
+![screenshot of edit schema](https://github.com/ZeroTrustAccess/Honeypot/blob/main/all_images/step5_log7.png)
 
 Here I found options to create custom columns within the custom log that I had created! But... no matter what I tried, the Save button at the button remained grayed-out. I did some more digging and after some long confusing conversations with Co-Pilot, I went back into the manage table section of my log, and clicked to remove the default workspace settings for the custom log.
 
-![image](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step5_log8.png)
+![image](https://github.com/ZeroTrustAccess/Honeypot/blob/main/all_images/step5_log8.png)
 
 This, accidentally, allowed me to actually save the changes I had made in the **edit Schema** menu for my custom log. Finally, I was able to "add more columns" to my custom log. I thought that this would be the solution to my issue, and continued to try to extract and redirect the "lattitude" information from the log into it's own column.
 
@@ -71,7 +71,7 @@ In this example, extend is used to create a new column called Duration, which is
 
 This only confused me. So with only the one data point to focus on--**latitude**-- I was able to come up with an expression using the **extend** operator:
 
-![screenshot of first kql syntax](https://github.com/ZeroTrustAccess/Honeypot/blob/main/step5_log9.png)
+![screenshot of first kql syntax](https://github.com/ZeroTrustAccess/Honeypot/blob/main/all_images/step5_log9.png)
 
 Admittedly, I had no idea what any of this was. I had to really break down into chunks, and ask Co-Pilot a million questions to get anywhere.
 Obviously, the **FAILED_RDP_WITH_GEO_CL** was the query command I used to summon the log in the first place. The next part made a little bit of sense to me. I knew that the | symbol was called a "pipe", and was used in other languages to *do more than one thing* at the same time. I experienced this in both my SQL training with Google, and all of the self-study I did to try and learn HTML,CSS, C+, and Python.
@@ -91,4 +91,4 @@ FAILED_RDP_WITH_GEO_CL
 |extend destination = extract("destination:([^,]+)", 1, RawData)
 |extend country = extract("country:([^,]+)", 1, RawData)
 
-Now, It was time to finish setting up the [map in **Sentinel**](https://github.com/ZeroTrustAccess/Honeypot/blob/main/Step6_Map.md).
+Now, It was time to finish setting up the [map in **Sentinel**](https://github.com/ZeroTrustAccess/Honeypot/blob/main/chapters/Step6_Map.md).
