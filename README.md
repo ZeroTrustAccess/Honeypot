@@ -1,11 +1,9 @@
-# 🔐 [Project Title]  
-*(e.g., Honeypot Lab, SOC Incident Report, Risk Assessment Study)*
+# 🔐 Honeypot Lab
 
 ## 📄 Overview
 Brief description of the project. What was it about? What tools or skills were used?
 
-> Example:  
-> This project simulates an attack scenario using a cloud-based honeypot deployed in Microsoft Azure. Logs were analyzed through Sentinel and Splunk to identify malicious behavior and improve incident response skills.
+This project simulates an attack scenario using a cloud-based honeypot deployed in Microsoft Azure. Logs were analyzed through Sentinel and Splunk to identify malicious behavior and improve incident response skills.
 
 ---
 
