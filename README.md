@@ -1,52 +1,61 @@
-# Azure Honeypot Project 2024
+# 🔐 [Project Title]  
+*(e.g., Honeypot Lab, SOC Incident Report, Risk Assessment Study)*
 
-This project involves setting up a honeypot on Microsoft Azure and exposing it to the internet to monitor and analyze potential cyber threats. The goal is to gain insights into the types of attacks that a system may face and use this knowledge to improve system security.
+## 📄 Overview
+Brief description of the project. What was it about? What tools or skills were used?
 
-## Project Objectives
+> Example:  
+> This project simulates an attack scenario using a cloud-based honeypot deployed in Microsoft Azure. Logs were analyzed through Sentinel and Splunk to identify malicious behavior and improve incident response skills.
 
-- Set up a honeypot on Microsoft Azure.
-- Expose the honeypot to the internet.
-- Monitor and document any attempted attacks.
-- Analyze the data collected by the honeypot.
+---
 
-## High-Level Overview of the Lab
- 1. Create a **free Azure account** (which has about $200 in free  credits)
- 2. Set up a **Virtual Machine** in Azure.
- 3. Turn the external firewall and Windows Firewal off for the VM, exposing it to anyone on the internet to ping and attack.
- 4. Create a **Log Repository in Azure** called a **Logs Analystics Workspace**, to ingest the logs from the Virtual Machine.
- 5. Set up **Azure Sentinel** with Azure. (Microsoft's cloud-native SIEM)
- 6. With that **SIEM**, create a map so that we can see all of the **attacker data**.
- 7. Use **Powershell** to extract the IP addresses from the Windows Logs, and send it to a Third Party API, to derive all of the geographic location to be sent back to the Virtual Machine to create a **custom log** of data so we know where these attacks are coming from.
+## 🎯 Objectives
 
-## Getting Started
+- Practice real-world log analysis
+- Gain hands-on SIEM experience
+- Simulate incident detection & triage
+- Document the full response workflow
 
-This lab is documented over the various chapters step-by-step, and can be used in 2024 for you to set up your own Honeypot.
+---
 
-### Prerequisites
+## 🧰 Tools & Skills Used
 
-- An active Microsoft Azure account.
-- Basic knowledge of cybersecurity principles.
+| Category          | Tools / Skills                          |
+|-------------------|------------------------------------------|
+| Cloud / Hosting   | Microsoft Azure                          |
+| SIEM              | Microsoft Sentinel, Splunk              |
+| Network Tools     | Wireshark, Suricata                      |
+| Scripting         | Bash, PowerShell (basic use)             |
+| Reporting         | Incident response documentation          |
 
-### Setup and Installation
+---
 
-1. [Chapter 1: Virtual Machine Creation Story](https://github.com/ZeroTrustAccess/Honeypot/blob/main/chapters/Step1_VM.md)
-2. [Chapter 2: Laying Down the LAW (Logs Analytics Workspace)](https://github.com/ZeroTrustAccess/Honeypot/blob/main/chapters/Step2_LAW.md)
-3. [Chapter 3: The Watching Watcher: Microsoft Sentinel](https://github.com/ZeroTrustAccess/Honeypot/blob/main/chapters/Step3_Sent.md)
-4. [Chapter 4: Journey Into The Machine](https://github.com/ZeroTrustAccess/Honeypot/blob/main/chapters/Step4_Run.md)
-5. [Chapter 5: Logs, Logs, Logs](https://github.com/ZeroTrustAccess/Honeypot/blob/main/chapters/Step5_Log.md)
-6. [Chapter 6: The Map](https://github.com/ZeroTrustAccess/Honeypot/blob/main/chapters/Step6_Map.md)
-7. 
-   ...
+## 📑 Key Artifacts
 
-## Usage
+- 📄 Summary Report: [`report.pdf`](./report.pdf)  
+- 📊 Screenshots: located in `/screenshots`  
+- 📁 Raw logs and observations: [`logs/`](./logs)
 
-Explain how to use the honeypot once it's set up.
+---
 
+## 📌 What I Learned
 
-## License
+- How attackers interact with honeypot environments
+- Correlating alerts and log entries in Sentinel
+- Writing structured incident response summaries
+- Importance of baseline behavior in anomaly detection
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
 
-## Acknowledgments
+## 🔗 Related Work
 
-This project is directly inspired from Josh Madakor's YouTube Channel.
+- 📁 [My Full Cybersecurity Portfolio](http://bit.ly/mat-cyber-portfolio)
+- 🧪 [TryHackMe SOC 1 Path Progress](#)
+- 📌 [GitHub Profile](https://github.com/ZeroTrustAccess)
+
+---
+
+## 📬 Contact
+
+Mat
+[GitHub](https://github.com/ZeroTrustAccess) • [Portfolio](http://bit.ly/mat-cyber-portfolio) • mat.hritz@gmail.com
